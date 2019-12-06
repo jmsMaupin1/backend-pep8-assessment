@@ -55,7 +55,7 @@ while key != 27:
     if key not in [KEY_LEFT, KEY_RIGHT, KEY_UP, KEY_DOWN, 27]:
         key = prevKey
 
-    # Calculates the new coordinates of the head of the snake. 
+    # Calculates the new coordinates of the head of the snake.
     # NOTE: len(snake) increases.
     # This is taken care of later at [1].
     snake.insert(0, [
